@@ -31,6 +31,19 @@ class Config:
             "default_coupling": "DC",
             "default_probe": 10.0
         },
+        "logic_analyzer": {
+            "enabled": False,
+            "default_threshold": "TTL",
+            "custom_threshold_level": 1.5,
+            "default_size": 100,
+            "default_position": 0,
+            "default_labels": {
+                "D0": "D0", "D1": "D1", "D2": "D2", "D3": "D3",
+                "D4": "D4", "D5": "D5", "D6": "D6", "D7": "D7",
+                "D8": "D8", "D9": "D9", "D10": "D10", "D11": "D11",
+                "D12": "D12", "D13": "D13", "D14": "D14", "D15": "D15"
+            }
+        },
         "timebase": {
             "default_scale": 1e-3,
             "default_offset": 0.0

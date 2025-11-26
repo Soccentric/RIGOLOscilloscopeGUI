@@ -220,6 +220,141 @@ class RigolDHO954:
             f.write(img_data)
         logger.info(f"Screenshot saved to {filename}")
 
+    # Logic Analyzer (Digital Channels) Methods
+    def set_digital_display(self, state: bool) -> None:
+        """Turn digital channels on/off globally"""
+        self.write(f":LA:DISP {1 if state else 0}")
+        logger.debug(f"Digital channels display set to {state}")
+
+    def set_digital_channel_display(self, channel: int, state: bool) -> None:
+        """
+        Turn individual digital channel on/off
+        
+        Args:
+            channel: Digital channel number (0-15)
+            state: True to enable, False to disable
+        """
+        if not 0 <= channel <= 15:
+            raise ValueError("Digital channel must be between 0 and 15")
+        self.write(f":LA:DIG{channel}:DISP {1 if state else 0}")
+        logger.debug(f"Digital channel {channel} display set to {state}")
+
+    def set_digital_threshold(self, threshold_type: str, level: float = None, channel: int = None) -> None:
+        """
+        Set digital threshold
+        
+        Args:
+            threshold_type: Threshold type - 'TTL', 'CMOS5', 'CMOS3', 'ECL', 'LVTTL', 'LVCMOS3', 'LVCMOS2', 'CUSTOM'
+            level: Custom threshold level in volts (only for CUSTOM type)
+            channel: Specific channel number (0-15), or None for all channels
+        """
+        valid_types = ['TTL', 'CMOS5', 'CMOS3', 'ECL', 'LVTTL', 'LVCMOS3', 'LVCMOS2', 'CUSTOM']
+        if threshold_type not in valid_types:
+            raise ValueError(f"Invalid threshold type. Must be one of {valid_types}")
+        
+        if channel is not None:
+            if not 0 <= channel <= 15:
+                raise ValueError("Digital channel must be between 0 and 15")
+            if threshold_type == 'CUSTOM' and level is not None:
+                self.write(f":LA:DIG{channel}:THR {level}")
+                logger.debug(f"Digital channel {channel} custom threshold set to {level} V")
+            else:
+                self.write(f":LA:DIG{channel}:THR {threshold_type}")
+                logger.debug(f"Digital channel {channel} threshold set to {threshold_type}")
+        else:
+            # Set for all channels
+            if threshold_type == 'CUSTOM' and level is not None:
+                for ch in range(16):
+                    self.write(f":LA:DIG{ch}:THR {level}")
+                logger.debug(f"All digital channels custom threshold set to {level} V")
+            else:
+                self.write(f":LA:THR {threshold_type}")
+                logger.debug(f"All digital channels threshold set to {threshold_type}")
+
+    def set_digital_size(self, size: int) -> None:
+        """
+        Set digital waveform vertical size (height)
+        
+        Args:
+            size: Size value (typically 40-200 pixels)
+        """
+        self.write(f":LA:SIZE {size}")
+        logger.debug(f"Digital waveform size set to {size}")
+
+    def set_digital_position(self, position: int) -> None:
+        """
+        Set digital waveform vertical position
+        
+        Args:
+            position: Position value
+        """
+        self.write(f":LA:POS {position}")
+        logger.debug(f"Digital waveform position set to {position}")
+
+    def get_digital_data(self, channel: int, points: int = 1000) -> tuple[np.ndarray, np.ndarray]:
+        """
+        Get digital waveform data from specified channel
+        
+        Args:
+            channel: Digital channel number (0-15)
+            points: Number of data points to retrieve
+            
+        Returns:
+            Tuple of (time_array, digital_array) where digital_array contains 0 or 1
+        """
+        if not 0 <= channel <= 15:
+            raise ValueError("Digital channel must be between 0 and 15")
+            
+        self.write(f":WAV:SOUR DIG{channel}")
+        self.write(":WAV:FORM ASC")
+        self.write(f":WAV:POIN {points}")
+
+        preamble = self.query(":WAV:PRE?").split(',')
+        x_increment = float(preamble[4])
+        x_origin = float(preamble[5])
+
+        self.write(":WAV:DATA?")
+        raw_data = self.inst.read_raw()
+
+        data_str = raw_data.decode('ascii').strip()
+        if data_str.startswith('#'):
+            header_len = int(data_str[1]) + 2
+            data_str = data_str[header_len:]
+
+        data_points = [int(float(x)) for x in data_str.split(',')]
+        times = [x_origin + i * x_increment for i in range(len(data_points))]
+
+        logger.debug(f"Retrieved {len(data_points)} digital data points from channel {channel}")
+        return np.array(times), np.array(data_points)
+
+    def set_digital_label(self, channel: int, label: str) -> None:
+        """
+        Set label for digital channel
+        
+        Args:
+            channel: Digital channel number (0-15)
+            label: Label string (max 4 characters)
+        """
+        if not 0 <= channel <= 15:
+            raise ValueError("Digital channel must be between 0 and 15")
+        self.write(f':LA:DIG{channel}:LAB "{label[:4]}"')
+        logger.debug(f"Digital channel {channel} label set to '{label[:4]}'")
+
+    def get_digital_label(self, channel: int) -> str:
+        """
+        Get label for digital channel
+        
+        Args:
+            channel: Digital channel number (0-15)
+            
+        Returns:
+            Label string
+        """
+        if not 0 <= channel <= 15:
+            raise ValueError("Digital channel must be between 0 and 15")
+        label = self.query(f":LA:DIG{channel}:LAB?")
+        return label.strip('"')
+
     def close(self) -> None:
         """Close connection"""
         logger.info("Closing oscilloscope connection")

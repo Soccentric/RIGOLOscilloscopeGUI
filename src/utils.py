@@ -84,3 +84,78 @@ def validate_offset_value(offset: float) -> bool:
 def validate_trigger_level(level: float) -> bool:
     """Validate trigger level (reasonable range)"""
     return -100 <= level <= 100
+
+
+def validate_digital_channel(channel: int) -> bool:
+    """
+    Validate digital channel number (0-15)
+    
+    Args:
+        channel: Digital channel number
+        
+    Returns:
+        True if valid, False otherwise
+    """
+    return 0 <= channel <= 15
+
+
+def validate_digital_threshold(threshold: float) -> bool:
+    """
+    Validate digital threshold voltage
+    
+    Args:
+        threshold: Threshold voltage in volts
+        
+    Returns:
+        True if valid, False otherwise
+    """
+    return -10 <= threshold <= 10
+
+
+def validate_digital_label(label: str) -> bool:
+    """
+    Validate digital channel label
+    
+    Args:
+        label: Label string
+        
+    Returns:
+        True if valid, False otherwise
+    """
+    return len(label) <= 4 and len(label) > 0
+
+
+def is_valid_threshold_type(threshold_type: str) -> bool:
+    """
+    Check if threshold type is valid
+    
+    Args:
+        threshold_type: Threshold type string
+        
+    Returns:
+        True if valid, False otherwise
+    """
+    valid_types = ['TTL', 'CMOS5', 'CMOS3', 'ECL', 'LVTTL', 'LVCMOS3', 'LVCMOS2', 'CUSTOM']
+    return threshold_type in valid_types
+
+
+def get_threshold_voltage(threshold_type: str) -> float:
+    """
+    Get the threshold voltage for standard threshold types
+    
+    Args:
+        threshold_type: Threshold type string
+        
+    Returns:
+        Threshold voltage in volts
+    """
+    thresholds = {
+        'TTL': 1.4,
+        'CMOS5': 2.5,
+        'CMOS3': 1.65,
+        'ECL': -1.3,
+        'LVTTL': 1.4,
+        'LVCMOS3': 1.65,
+        'LVCMOS2': 1.25
+    }
+    return thresholds.get(threshold_type, 1.5)

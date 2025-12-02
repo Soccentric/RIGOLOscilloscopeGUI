@@ -460,6 +460,12 @@
 			null
 		],
 		[
+			"/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/theme.h",
+			"MU",
+			"YPKJ5OE7LN/moc_theme.cpp",
+			null
+		],
+		[
 			"/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/triggerpanel.h",
 			"MU",
 			"YPKJ5OE7LN/moc_triggerpanel.cpp",
@@ -644,6 +650,11 @@
 		],
 		[
 			"/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/measurementpanel.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/theme.cpp",
 			"MU",
 			null
 		],

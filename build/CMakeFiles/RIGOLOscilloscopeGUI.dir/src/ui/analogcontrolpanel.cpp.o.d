@@ -441,21 +441,9 @@ CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/analogcontrolpanel.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractitemmodel.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGroupBox \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgroupbox.h \
- /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/../core/scopechannel.h \
+ /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/../communication/deviceconnection.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qstring.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/QColor \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qcolor.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/QVector \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qvector.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/QPointF \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h \
- /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/../core/scopesettings.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/QSettings \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qsettings.h \
- /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/../communication/deviceconnection.h \
  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/QTcpSocket \
  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtcpsocket.h \
  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtnetworkglobal.h \
@@ -478,7 +466,19 @@ CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/analogcontrolpanel.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QQueue \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qqueue.h \
  /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/../communication/scpicommands.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGridLayout \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgridlayout.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qstring.h \
+ /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/../core/scopechannel.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/QColor \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qcolor.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QVector \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qvector.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QPointF \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h \
+ /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/../core/scopesettings.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QSettings \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qsettings.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFrame \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGridLayout \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgridlayout.h

@@ -28,6 +28,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/headerwidget.cpp" "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/headerwidget.cpp.o" "gcc" "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/headerwidget.cpp.o.d"
   "/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/mainwindow.cpp" "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/mainwindow.cpp.o" "gcc" "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/mainwindow.cpp.o.d"
   "/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/measurementpanel.cpp" "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/measurementpanel.cpp.o" "gcc" "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/measurementpanel.cpp.o.d"
+  "/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/theme.cpp" "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.o" "gcc" "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.o.d"
   "/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/triggerpanel.cpp" "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/triggerpanel.cpp.o" "gcc" "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/triggerpanel.cpp.o.d"
   "/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/waveformdisplay.cpp" "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/waveformdisplay.cpp.o" "gcc" "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/waveformdisplay.cpp.o.d"
   "/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/utils/dataexporter.cpp" "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/utils/dataexporter.cpp.o" "gcc" "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/utils/dataexporter.cpp.o.d"

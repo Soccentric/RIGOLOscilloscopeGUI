@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-d030b41e75c63ae6966a.json",
+					"jsonFile" : "directory-.-10eaae157b66d30320c0.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "RIGOLOscilloscopeGUI::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-RIGOLOscilloscopeGUI-d5c5da284afce4ef191f.json",
+					"jsonFile" : "target-RIGOLOscilloscopeGUI-0e00d5fe52267f3be666.json",
 					"name" : "RIGOLOscilloscopeGUI",
 					"projectIndex" : 0
 				},

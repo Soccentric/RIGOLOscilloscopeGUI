@@ -11,6 +11,7 @@ RIGOLOscilloscopeGUI: \
   CMakeFiles/RIGOLOscilloscopeGUI.dir/src/core/scopechannel.cpp.o \
   CMakeFiles/RIGOLOscilloscopeGUI.dir/src/core/scopesettings.cpp.o \
   CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/mainwindow.cpp.o \
+  CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.o \
   CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/waveformdisplay.cpp.o \
   CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/channelcontrolpanel.cpp.o \
   CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/triggerpanel.cpp.o \
@@ -159,6 +160,8 @@ CMakeFiles/RIGOLOscilloscopeGUI.dir/src/core/scopechannel.cpp.o:
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/core/scopesettings.cpp.o:
 
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/mainwindow.cpp.o:
+
+CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.o:
 
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/waveformdisplay.cpp.o:
 

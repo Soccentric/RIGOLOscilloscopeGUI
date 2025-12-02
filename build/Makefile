@@ -656,6 +656,30 @@ src/ui/measurementpanel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RIGOLOscilloscopeGUI.dir/build.make CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/measurementpanel.cpp.s
 .PHONY : src/ui/measurementpanel.cpp.s
 
+src/ui/theme.o: src/ui/theme.cpp.o
+.PHONY : src/ui/theme.o
+
+# target to build an object file
+src/ui/theme.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RIGOLOscilloscopeGUI.dir/build.make CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.o
+.PHONY : src/ui/theme.cpp.o
+
+src/ui/theme.i: src/ui/theme.cpp.i
+.PHONY : src/ui/theme.i
+
+# target to preprocess a source file
+src/ui/theme.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RIGOLOscilloscopeGUI.dir/build.make CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.i
+.PHONY : src/ui/theme.cpp.i
+
+src/ui/theme.s: src/ui/theme.cpp.s
+.PHONY : src/ui/theme.s
+
+# target to generate assembly for a file
+src/ui/theme.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RIGOLOscilloscopeGUI.dir/build.make CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.s
+.PHONY : src/ui/theme.cpp.s
+
 src/ui/triggerpanel.o: src/ui/triggerpanel.cpp.o
 .PHONY : src/ui/triggerpanel.o
 
@@ -800,6 +824,9 @@ help:
 	@echo "... src/ui/measurementpanel.o"
 	@echo "... src/ui/measurementpanel.i"
 	@echo "... src/ui/measurementpanel.s"
+	@echo "... src/ui/theme.o"
+	@echo "... src/ui/theme.i"
+	@echo "... src/ui/theme.s"
 	@echo "... src/ui/triggerpanel.o"
 	@echo "... src/ui/triggerpanel.i"
 	@echo "... src/ui/triggerpanel.s"

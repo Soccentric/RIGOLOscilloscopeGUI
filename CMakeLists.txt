@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.16)
 
 project(RIGOLOscilloscopeGUI VERSION 2.0.0 LANGUAGES CXX)
 
+set(CMAKE_PREFIX_PATH "C:\\Qt\\6.10.1\\mingw_64\\lib\\cmake")
+
 # C++ Standard
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -60,6 +62,7 @@ set(CORE_HEADERS
 
 set(UI_SOURCES
     src/ui/mainwindow.cpp
+    src/ui/theme.cpp
     src/ui/waveformdisplay.cpp
     src/ui/channelcontrolpanel.cpp
     src/ui/triggerpanel.cpp
@@ -74,6 +77,8 @@ set(UI_SOURCES
 
 set(UI_HEADERS
     src/ui/mainwindow.h
+    src/ui/theme.h
+    src/ui/waveformdisplay.h
     src/ui/waveformdisplay.h
     src/ui/channelcontrolpanel.h
     src/ui/triggerpanel.h

@@ -205,10 +205,24 @@ CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/mainwindow.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/mainwindow.cpp -o CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/mainwindow.cpp.s
 
+CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/flags.make
+CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.o: /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/theme.cpp
+CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.o -MF CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.o.d -o CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.o -c /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/theme.cpp
+
+CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/theme.cpp > CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.i
+
+CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/theme.cpp -o CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.s
+
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/waveformdisplay.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/flags.make
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/waveformdisplay.cpp.o: /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/waveformdisplay.cpp
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/waveformdisplay.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/waveformdisplay.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/waveformdisplay.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/waveformdisplay.cpp.o -MF CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/waveformdisplay.cpp.o.d -o CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/waveformdisplay.cpp.o -c /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/waveformdisplay.cpp
 
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/waveformdisplay.cpp.i: cmake_force
@@ -222,7 +236,7 @@ CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/waveformdisplay.cpp.s: cmake_force
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/channelcontrolpanel.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/flags.make
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/channelcontrolpanel.cpp.o: /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/channelcontrolpanel.cpp
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/channelcontrolpanel.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/channelcontrolpanel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/channelcontrolpanel.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/channelcontrolpanel.cpp.o -MF CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/channelcontrolpanel.cpp.o.d -o CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/channelcontrolpanel.cpp.o -c /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/channelcontrolpanel.cpp
 
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/channelcontrolpanel.cpp.i: cmake_force
@@ -236,7 +250,7 @@ CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/channelcontrolpanel.cpp.s: cmake_forc
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/triggerpanel.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/flags.make
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/triggerpanel.cpp.o: /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/triggerpanel.cpp
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/triggerpanel.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/triggerpanel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/triggerpanel.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/triggerpanel.cpp.o -MF CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/triggerpanel.cpp.o.d -o CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/triggerpanel.cpp.o -c /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/triggerpanel.cpp
 
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/triggerpanel.cpp.i: cmake_force
@@ -250,7 +264,7 @@ CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/triggerpanel.cpp.s: cmake_force
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/measurementpanel.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/flags.make
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/measurementpanel.cpp.o: /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/measurementpanel.cpp
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/measurementpanel.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/measurementpanel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/measurementpanel.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/measurementpanel.cpp.o -MF CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/measurementpanel.cpp.o.d -o CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/measurementpanel.cpp.o -c /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/measurementpanel.cpp
 
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/measurementpanel.cpp.i: cmake_force
@@ -264,7 +278,7 @@ CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/measurementpanel.cpp.s: cmake_force
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/connectiondialog.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/flags.make
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/connectiondialog.cpp.o: /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/connectiondialog.cpp
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/connectiondialog.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/connectiondialog.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/connectiondialog.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/connectiondialog.cpp.o -MF CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/connectiondialog.cpp.o.d -o CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/connectiondialog.cpp.o -c /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/connectiondialog.cpp
 
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/connectiondialog.cpp.i: cmake_force
@@ -278,7 +292,7 @@ CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/connectiondialog.cpp.s: cmake_force
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/fftwindow.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/flags.make
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/fftwindow.cpp.o: /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/fftwindow.cpp
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/fftwindow.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/fftwindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/fftwindow.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/fftwindow.cpp.o -MF CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/fftwindow.cpp.o.d -o CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/fftwindow.cpp.o -c /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/fftwindow.cpp
 
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/fftwindow.cpp.i: cmake_force
@@ -292,7 +306,7 @@ CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/fftwindow.cpp.s: cmake_force
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/headerwidget.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/flags.make
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/headerwidget.cpp.o: /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/headerwidget.cpp
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/headerwidget.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/headerwidget.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/headerwidget.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/headerwidget.cpp.o -MF CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/headerwidget.cpp.o.d -o CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/headerwidget.cpp.o -c /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/headerwidget.cpp
 
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/headerwidget.cpp.i: cmake_force
@@ -306,7 +320,7 @@ CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/headerwidget.cpp.s: cmake_force
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/footerwidget.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/flags.make
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/footerwidget.cpp.o: /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/footerwidget.cpp
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/footerwidget.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/footerwidget.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/footerwidget.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/footerwidget.cpp.o -MF CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/footerwidget.cpp.o.d -o CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/footerwidget.cpp.o -c /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/footerwidget.cpp
 
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/footerwidget.cpp.i: cmake_force
@@ -320,7 +334,7 @@ CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/footerwidget.cpp.s: cmake_force
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/analogcontrolpanel.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/flags.make
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/analogcontrolpanel.cpp.o: /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/analogcontrolpanel.cpp
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/analogcontrolpanel.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/analogcontrolpanel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/analogcontrolpanel.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/analogcontrolpanel.cpp.o -MF CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/analogcontrolpanel.cpp.o.d -o CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/analogcontrolpanel.cpp.o -c /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/analogcontrolpanel.cpp
 
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/analogcontrolpanel.cpp.i: cmake_force
@@ -334,7 +348,7 @@ CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/analogcontrolpanel.cpp.s: cmake_force
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/digitalcontrolpanel.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/flags.make
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/digitalcontrolpanel.cpp.o: /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/digitalcontrolpanel.cpp
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/digitalcontrolpanel.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/digitalcontrolpanel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/digitalcontrolpanel.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/digitalcontrolpanel.cpp.o -MF CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/digitalcontrolpanel.cpp.o.d -o CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/digitalcontrolpanel.cpp.o -c /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/digitalcontrolpanel.cpp
 
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/digitalcontrolpanel.cpp.i: cmake_force
@@ -348,7 +362,7 @@ CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/digitalcontrolpanel.cpp.s: cmake_forc
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/analysis/fftanalyzer.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/flags.make
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/analysis/fftanalyzer.cpp.o: /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/analysis/fftanalyzer.cpp
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/analysis/fftanalyzer.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/analysis/fftanalyzer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/analysis/fftanalyzer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RIGOLOscilloscopeGUI.dir/src/analysis/fftanalyzer.cpp.o -MF CMakeFiles/RIGOLOscilloscopeGUI.dir/src/analysis/fftanalyzer.cpp.o.d -o CMakeFiles/RIGOLOscilloscopeGUI.dir/src/analysis/fftanalyzer.cpp.o -c /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/analysis/fftanalyzer.cpp
 
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/analysis/fftanalyzer.cpp.i: cmake_force
@@ -362,7 +376,7 @@ CMakeFiles/RIGOLOscilloscopeGUI.dir/src/analysis/fftanalyzer.cpp.s: cmake_force
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/analysis/protocoldecoder.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/flags.make
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/analysis/protocoldecoder.cpp.o: /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/analysis/protocoldecoder.cpp
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/analysis/protocoldecoder.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/analysis/protocoldecoder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/analysis/protocoldecoder.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RIGOLOscilloscopeGUI.dir/src/analysis/protocoldecoder.cpp.o -MF CMakeFiles/RIGOLOscilloscopeGUI.dir/src/analysis/protocoldecoder.cpp.o.d -o CMakeFiles/RIGOLOscilloscopeGUI.dir/src/analysis/protocoldecoder.cpp.o -c /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/analysis/protocoldecoder.cpp
 
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/analysis/protocoldecoder.cpp.i: cmake_force
@@ -376,7 +390,7 @@ CMakeFiles/RIGOLOscilloscopeGUI.dir/src/analysis/protocoldecoder.cpp.s: cmake_fo
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/utils/dataexporter.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/flags.make
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/utils/dataexporter.cpp.o: /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/utils/dataexporter.cpp
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/utils/dataexporter.cpp.o: CMakeFiles/RIGOLOscilloscopeGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/utils/dataexporter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/RIGOLOscilloscopeGUI.dir/src/utils/dataexporter.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RIGOLOscilloscopeGUI.dir/src/utils/dataexporter.cpp.o -MF CMakeFiles/RIGOLOscilloscopeGUI.dir/src/utils/dataexporter.cpp.o.d -o CMakeFiles/RIGOLOscilloscopeGUI.dir/src/utils/dataexporter.cpp.o -c /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/utils/dataexporter.cpp
 
 CMakeFiles/RIGOLOscilloscopeGUI.dir/src/utils/dataexporter.cpp.i: cmake_force
@@ -398,6 +412,7 @@ RIGOLOscilloscopeGUI_OBJECTS = \
 "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/core/scopechannel.cpp.o" \
 "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/core/scopesettings.cpp.o" \
 "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/mainwindow.cpp.o" \
+"CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.o" \
 "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/waveformdisplay.cpp.o" \
 "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/channelcontrolpanel.cpp.o" \
 "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/triggerpanel.cpp.o" \
@@ -424,6 +439,7 @@ RIGOLOscilloscopeGUI: CMakeFiles/RIGOLOscilloscopeGUI.dir/src/core/measurementen
 RIGOLOscilloscopeGUI: CMakeFiles/RIGOLOscilloscopeGUI.dir/src/core/scopechannel.cpp.o
 RIGOLOscilloscopeGUI: CMakeFiles/RIGOLOscilloscopeGUI.dir/src/core/scopesettings.cpp.o
 RIGOLOscilloscopeGUI: CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/mainwindow.cpp.o
+RIGOLOscilloscopeGUI: CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.o
 RIGOLOscilloscopeGUI: CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/waveformdisplay.cpp.o
 RIGOLOscilloscopeGUI: CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/channelcontrolpanel.cpp.o
 RIGOLOscilloscopeGUI: CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/triggerpanel.cpp.o
@@ -449,7 +465,7 @@ RIGOLOscilloscopeGUI: /usr/lib/x86_64-linux-gnu/libGLX.so
 RIGOLOscilloscopeGUI: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 RIGOLOscilloscopeGUI: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.9.2
 RIGOLOscilloscopeGUI: CMakeFiles/RIGOLOscilloscopeGUI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable RIGOLOscilloscopeGUI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable RIGOLOscilloscopeGUI"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RIGOLOscilloscopeGUI.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

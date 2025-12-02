@@ -39,6 +39,8 @@ RIGOLOscilloscopeGUI_autogen/timestamp: \
 	/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/mainwindow.h \
 	/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/measurementpanel.cpp \
 	/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/measurementpanel.h \
+	/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/theme.cpp \
+	/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/theme.h \
 	/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/triggerpanel.cpp \
 	/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/triggerpanel.h \
 	/home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/src/ui/waveformdisplay.cpp \

@@ -41,6 +41,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/mainwindow.cpp.o.d"
   "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/measurementpanel.cpp.o"
   "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/measurementpanel.cpp.o.d"
+  "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.o"
+  "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/theme.cpp.o.d"
   "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/triggerpanel.cpp.o"
   "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/triggerpanel.cpp.o.d"
   "CMakeFiles/RIGOLOscilloscopeGUI.dir/src/ui/waveformdisplay.cpp.o"

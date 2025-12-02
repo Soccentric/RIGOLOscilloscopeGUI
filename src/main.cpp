@@ -27,7 +27,14 @@
 #include "ui/mainwindow.h"
 
 /**
- * @brief Apply dark theme stylesheet
+ * @brief Applies a comprehensive dark theme to the Qt application
+ *
+ * This function configures the Fusion style and sets up a complete dark color palette
+ * for all Qt widgets, including custom stylesheets for enhanced visual consistency.
+ * The theme is designed to provide excellent readability and a professional appearance
+ * suitable for technical applications like oscilloscope control software.
+ *
+ * @param app Reference to the QApplication instance that will use the dark theme
  */
 void applyDarkTheme(QApplication &app)
 {
@@ -339,7 +346,13 @@ void applyDarkTheme(QApplication &app)
 }
 
 /**
- * @brief Show splash screen during application startup
+ * @brief Creates and displays a custom splash screen during application startup
+ *
+ * Generates a professional-looking splash screen with the application name, version,
+ * and loading message. The splash screen uses a dark theme consistent with the
+ * application's overall design.
+ *
+ * @return Pointer to the QSplashScreen object that was created and shown
  */
 QSplashScreen* showSplashScreen()
 {
@@ -381,6 +394,17 @@ QSplashScreen* showSplashScreen()
     return splash;
 }
 
+/**
+ * @brief Main entry point for the RIGOL Oscilloscope GUI application
+ *
+ * Initializes the Qt application, applies the dark theme, shows a splash screen,
+ * creates the main window, and starts the event loop. This function handles the
+ * complete application lifecycle from startup to shutdown.
+ *
+ * @param argc Number of command-line arguments passed to the application
+ * @param argv Array of command-line argument strings
+ * @return Integer exit code (0 for success, non-zero for errors)
+ */
 int main(int argc, char *argv[])
 {
     // Enable high DPI scaling

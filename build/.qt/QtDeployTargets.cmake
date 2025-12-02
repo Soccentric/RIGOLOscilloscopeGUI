@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_RIGOLOscilloscopeGUI_FILE /home/sandesh/workspace/rigol/RIGOLOscilloscopeGUI/build/RIGOLOscilloscopeGUI)
+set(__QT_DEPLOY_TARGET_RIGOLOscilloscopeGUI_TYPE EXECUTABLE)

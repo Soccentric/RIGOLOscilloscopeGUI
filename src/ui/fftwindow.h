@@ -21,7 +21,12 @@
 #include "../analysis/fftanalyzer.h"
 #include "../core/scopechannel.h"
 
-QT_CHARTS_USE_NAMESPACE
+QT_BEGIN_NAMESPACE
+class QChart;
+class QChartView;
+QT_END_NAMESPACE
+
+QT_USE_NAMESPACE
 
 /**
  * @brief FFT Analysis Window for spectrum analysis

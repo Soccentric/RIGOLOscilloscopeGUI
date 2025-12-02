@@ -169,6 +169,58 @@ void WaveformDisplay::resetZoom()
     update();
 }
 
+void WaveformDisplay::panLeft()
+{
+    double panAmount = (m_xMax - m_xMin) * 0.1;
+    m_xMin -= panAmount;
+    m_xMax -= panAmount;
+    emit zoomChanged(m_xMin, m_xMax, m_yMin, m_yMax);
+    update();
+}
+
+void WaveformDisplay::panRight()
+{
+    double panAmount = (m_xMax - m_xMin) * 0.1;
+    m_xMin += panAmount;
+    m_xMax += panAmount;
+    emit zoomChanged(m_xMin, m_xMax, m_yMin, m_yMax);
+    update();
+}
+
+void WaveformDisplay::panUp()
+{
+    double panAmount = (m_yMax - m_yMin) * 0.1;
+    m_yMin += panAmount;
+    m_yMax += panAmount;
+    emit zoomChanged(m_xMin, m_xMax, m_yMin, m_yMax);
+    update();
+}
+
+void WaveformDisplay::panDown()
+{
+    double panAmount = (m_yMax - m_yMin) * 0.1;
+    m_yMin -= panAmount;
+    m_yMax -= panAmount;
+    emit zoomChanged(m_xMin, m_xMax, m_yMin, m_yMax);
+    update();
+}
+
+void WaveformDisplay::centerView()
+{
+    double xCenter = (m_xMin + m_xMax) / 2;
+    double yCenter = (m_yMin + m_yMax) / 2;
+    double xRange = m_xMax - m_xMin;
+    double yRange = m_yMax - m_yMin;
+    
+    m_xMin = xCenter - xRange / 2;
+    m_xMax = xCenter + xRange / 2;
+    m_yMin = yCenter - yRange / 2;
+    m_yMax = yCenter + yRange / 2;
+    
+    emit zoomChanged(m_xMin, m_xMax, m_yMin, m_yMax);
+    update();
+}
+
 void WaveformDisplay::setTimePerDiv(double time)
 {
     m_timePerDiv = time;
@@ -785,6 +837,25 @@ void WaveformDisplay::keyPressEvent(QKeyEvent *event)
             break;
         case Qt::Key_F:
             zoomToFit();
+            break;
+        case Qt::Key_Left:
+            panLeft();
+            break;
+        case Qt::Key_Right:
+            panRight();
+            break;
+        case Qt::Key_Up:
+            panUp();
+            break;
+        case Qt::Key_Down:
+            panDown();
+            break;
+        case Qt::Key_Home:
+            centerView();
+            break;
+        case Qt::Key_R:
+            // Toggle rulers/cursors
+            emit toggleCursors();
             break;
         default:
             QOpenGLWidget::keyPressEvent(event);

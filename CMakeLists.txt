@@ -65,6 +65,11 @@ set(UI_SOURCES
     src/ui/triggerpanel.cpp
     src/ui/measurementpanel.cpp
     src/ui/connectiondialog.cpp
+    src/ui/fftwindow.cpp
+    src/ui/headerwidget.cpp
+    src/ui/footerwidget.cpp
+    src/ui/analogcontrolpanel.cpp
+    src/ui/digitalcontrolpanel.cpp
 )
 
 set(UI_HEADERS
@@ -74,6 +79,11 @@ set(UI_HEADERS
     src/ui/triggerpanel.h
     src/ui/measurementpanel.h
     src/ui/connectiondialog.h
+    src/ui/fftwindow.h
+    src/ui/headerwidget.h
+    src/ui/footerwidget.h
+    src/ui/analogcontrolpanel.h
+    src/ui/digitalcontrolpanel.h
 )
 
 set(ANALYSIS_SOURCES

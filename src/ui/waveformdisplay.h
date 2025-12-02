@@ -49,6 +49,11 @@ public:
     void zoomOut();
     void zoomToFit();
     void resetZoom();
+    void panLeft();
+    void panRight();
+    void panUp();
+    void panDown();
+    void centerView();
 
     // Time/voltage per division
     double timePerDiv() const { return m_timePerDiv; }
@@ -66,6 +71,7 @@ signals:
     void cursorMoved(double x, double y);
     void zoomChanged(double xMin, double xMax, double yMin, double yMax);
     void channelClicked(const QString &channelName);
+    void toggleCursors();
 
 protected:
     void initializeGL() override;
